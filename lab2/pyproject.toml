@@ -1,0 +1,16 @@
+[project]
+name = "lab2"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "ipykernel",
+    "matplotlib",
+    "nbconvert",
+    "notebook>=7",
+    "pandas",
+    "spacy>=3.8,<3.9",
+    "ru-core-news-sm",
+]
+
+[tool.uv.sources]
+ru-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_sm-3.8.0/ru_core_news_sm-3.8.0-py3-none-any.whl" }

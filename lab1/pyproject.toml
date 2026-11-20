@@ -1,0 +1,23 @@
+[project]
+name = "lab1"
+version = "0.1.0"
+description = "Лабораторная работа №1: предобработка текста и N-граммная языковая модель (RuHateBe)"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "scikit-learn>=1.5",
+    "nltk>=3.9",
+    "pymorphy3>=2.0",
+    "pymorphy3-dicts-ru",
+    "jupyter>=1.1",
+    "nbformat>=5.10",
+    "nbconvert>=7.16",
+    "ipykernel>=6.29",
+    "spacy>=3.8,<3.9",
+    "ru-core-news-sm",
+]
+
+[tool.uv.sources]
+ru-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_sm-3.8.0/ru_core_news_sm-3.8.0-py3-none-any.whl" }

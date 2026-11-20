@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-11-14T09:34:16.832406+00:00",
+  "python_version": "3.13.15",
+  "spacy_version": "3.8.18",
+  "model": "ru_core_news_sm",
+  "model_version": "3.8.0",
+  "pipeline": [
+    "tok2vec",
+    "morphologizer",
+    "parser",
+    "attribute_ruler",
+    "lemmatizer"
+  ],
+  "disabled": [
+    "senter",
+    "ner"
+  ],
+  "batch_size": 64,
+  "n_process": 1,
+  "preview_seed": 42,
+  "dataset_sha256": "f4820e8d8465728f2186bc5cd90484c3fece43a2ecaa855631171597fe60ef95",
+  "text_column": "Reply 2 original",
+  "documents": 10382,
+  "sentences": 25272,
+  "tokens_including_spaces_and_punctuation": 351651,
+  "tokens_without_spaces_and_punctuation": 295044,
+  "elapsed_seconds": 35.91
+}
